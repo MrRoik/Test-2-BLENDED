@@ -20,3 +20,4 @@ export function createSingleLayout(data){
    <p>Price:${data.price}</p>
    <img src="${data.images[0]}" alt="${data.description}">`
 }
+// addsomestuff
