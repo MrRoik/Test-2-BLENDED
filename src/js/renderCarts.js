@@ -10,3 +10,4 @@ export async function renderCarts() {
    const render = await getAllProducts()
    allProducts.insertAdjacentHTML("beforeend", createMarkup(render.products))
 }
+
