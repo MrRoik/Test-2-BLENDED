@@ -6,3 +6,8 @@ export async function getAllProducts() {
 }
  
 //  getAllProducts()
+
+export async function getProductById(id){
+    return await apiInstance.get(`/products/${id}`)
+   
+}
